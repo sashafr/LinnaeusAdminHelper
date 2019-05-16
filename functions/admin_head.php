@@ -1,11 +1,11 @@
-<?php 
-$story_container='div#element-'.cah_get_element_id('Item Type Metadata','Story');
+<?php
+$species_container='div#element-'.linn_get_element_id('Item Type Metadata','Species');
 ?>
 <style>
 	.fa{
 		font-family:"FontAwesome"
 		}
-	.fa-exclamation-triangle:after,	 
+	.fa-exclamation-triangle:after,
 	.fa-check-circle:after{
 		font-style: normal;
 		font-weight: lighter;
@@ -13,12 +13,12 @@ $story_container='div#element-'.cah_get_element_id('Item Type Metadata','Story')
 		line-height:0em;
 		vertical-align: middle;
 		padding-left: .25em;
-		text-shadow:0 0 2px #fff;		
+		text-shadow:0 0 2px #fff;
 	}
 	.fa-exclamation-triangle:after{
 		content:"\f071";
 		color:#AD6345;
-	}	
+	}
 	.fa-check-circle:after{
 		content: "\f058";
 		color: #A4C637;
@@ -28,18 +28,18 @@ $story_container='div#element-'.cah_get_element_id('Item Type Metadata','Story')
 		color:#fff;
 		padding: .25em;
 		font-style: normal;
-	}	
+	}
 	.tab-info{
 		background: #bbb;
 		color: #fff;
 		padding: .25em .5em .25em .25em;
-		float: right;	
-		display: inline-block;	
-	}	
-	<?php echo $story_container;?> textarea{
+		float: right;
+		display: inline-block;
+	}
+	<?php echo $species_container;?> textarea{
 		height:25em;
 	}
-	p.cah-helper{
+	p.linn-helper{
 		font-style: italic;
 		padding:1em;
 		background:#fafafa;
@@ -63,7 +63,7 @@ $story_container='div#element-'.cah_get_element_id('Item Type Metadata','Story')
 	    padding: 0.25em 0.5em;
 	    font-style: italic;
 	}
-	a:link.cah-file-edit{
+	a:link.linn-file-edit{
 		text-align: center;
 		display: block;
 		padding-bottom: 3px;
